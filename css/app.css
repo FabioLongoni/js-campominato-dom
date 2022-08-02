@@ -56,8 +56,19 @@ body {
     align-items: center;
     cursor: pointer;
     flex-basis: calc(100% / 10);
+    user-select: none;
 }
 
 .click_hover {
     background-color: lightblue;
+}
+
+.square.bomb {
+    background-color: red;
+    color: yellow;
+}
+
+.square.success {
+    background-color: lightgreen;
+    color: white;
 }
